@@ -9,6 +9,34 @@
   font-style: normal;
 }
 
+/* shared style */
+.change-the-world {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.half-width-text {
+  text-align: start;
+  width: 60%;
+}
+.change-title {
+  font-size: 24px;
+  color: #0d1321b3;
+}
+.change-description {
+  font-size: 16px;
+  color: #0d1321;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+.btn-learn-more {
+  color: #0d1321;
+  background-color: white;
+  padding: 12px 20px;
+  border: 1px solid #0d1321;
+}
+
 /* Header nav style */
 nav {
   display: flex;
@@ -62,7 +90,26 @@ nav {
   font-size: 20px;
   font-weight: 600;
   background-color: #0d1321;
+  border: 1px solid #0d1321;
   padding: 16px 20px;
   border-radius: 8px;
   margin: 20px 0;
+}
+
+/* why web development  */
+.why-web-development {
+  height: 1253px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.why-web-dev-content {
+  width: 850px;
+}
+.web-dev-title {
+  margin: 80px 0px;
+}
+.web-dev-title h2 {
+  margin: 20px 0px;
 }
