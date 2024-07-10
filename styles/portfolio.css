@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 /* Common font style */
 .azeret-mono-normal {
@@ -54,6 +55,9 @@ nav {
   padding: 10px 20px;
   border-radius: 8px;
   opacity: 0.7;
+}
+#button-link {
+  text-decoration: none;
 }
 
 /* Header banner style */
@@ -202,4 +206,14 @@ a {
 .next-tech p {
   color: #0d1321;
   opacity: 0.7;
+}
+
+/* footer  */
+.footer-section {
+  background-color: #0d132108;
+  height: 80px;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
