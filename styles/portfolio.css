@@ -90,7 +90,6 @@ nav {
   margin: 20px 0;
 }
 .btn-banner {
-  color: white;
   font-size: 20px;
   font-weight: 600;
   background-color: #0d1321;
@@ -98,6 +97,10 @@ nav {
   padding: 16px 20px;
   border-radius: 8px;
   margin: 20px 0;
+}
+.btn-banner a {
+  color: white;
+  text-decoration: none;
 }
 
 /* why web development  */
