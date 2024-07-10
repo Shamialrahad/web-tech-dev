@@ -139,3 +139,67 @@ nav {
   margin: 20px 0;
   border-radius: 20px;
 }
+
+.my-current-target {
+  width: 1000px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.my-current-target-tech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+.target-tech {
+  width: 300px;
+  text-align: left;
+  margin: 15px;
+  padding: 30px;
+  background-color: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.target-tech img,
+h2,
+p {
+  margin: 10px 0px;
+}
+
+.card-1 {
+  background-color: #ff4c1e0d;
+}
+.card-2 {
+  background-color: #004ce80d;
+}
+card-3 {
+  background-color: #ffdf000d;
+}
+
+/* my next target section  */
+.my-next-target {
+  width: 1000px;
+  margin: 100px auto;
+  text-align: center;
+}
+.target-technology {
+  display: flex;
+  border: 1px solid #0d132126;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.next-tech {
+  text-align: left;
+  padding-left: 20px;
+}
+.next-tech h3,
+a {
+  color: #0d1321;
+  font-weight: 600;
+}
+.next-tech p {
+  color: #0d1321;
+  opacity: 0.7;
+}
