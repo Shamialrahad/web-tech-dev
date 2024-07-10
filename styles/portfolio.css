@@ -144,7 +144,9 @@ nav {
 
 .my-inspiration-content iframe {
   margin: 20px 0;
+  border: 1px solid #0d132133;
   border-radius: 20px;
+  padding: 20px;
 }
 
 .my-current-target {
